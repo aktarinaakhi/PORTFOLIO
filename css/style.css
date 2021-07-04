@@ -15,10 +15,12 @@ body {
   display: block;
   clear: both;
 }
+section {
+  margin-bottom: 100px;
+}
 .half-width {
   width: 50%;
   float: left;
-  padding: 0 0 50px 0;
 }
 h1 {
   font-size: 50px;
@@ -31,23 +33,24 @@ h1 span {
   background-image: url(/image/top-banner.png);
   background-repeat: no-repeat;
 }
-button {
+.half-width a {
   background-image: linear-gradient(lightsalmon, tomato);
-  border: none;
+  text-decoration: none;
   padding: 12px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
   font-size: 15px;
 }
-section {
-  padding-left: 15px;
-}
+
 h2 {
   font-size: 40px;
 }
-#second {
+#dream-big {
   background-image: url(/image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.another {
+  padding-left: 100px;
 }
